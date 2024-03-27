@@ -4,7 +4,7 @@ import emailjs from "@emailjs/browser";
 import axios from "axios";
 import { styles } from "../styles";
 import { EarthCanvas } from "./canvas";
-import { SectionWrapper } from "../hoc";
+import { SectionWrapper } from "../HOC";
 import { slideIn } from "../utils/motion";
 
 const Contact = () => {
@@ -64,7 +64,7 @@ const Contact = () => {
     >
       <motion.div
         variants={slideIn("left", "tween", 0.2, 1)}
-        className="flex-[65] bg-black-100 p-8 rounded-2xl"
+        className="flex-[5] bg-black-100 p-8 rounded-2xl"
       >
         <p className={styles.sectionSubText}>Report Vulnerablitiy</p>
         <h3 className={styles.sectionHeadText}>Vulnerablitiy reporting Form</h3>

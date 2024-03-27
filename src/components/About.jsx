@@ -8,8 +8,8 @@ import { motion } from "framer-motion";
 import "react-vertical-timeline-component/style.min.css";
 
 import { styles } from "../styles";
-import { experiences } from "../constants";
-import { SectionWrapper } from "../hoc";
+import { experiences } from "../Constants";
+import { SectionWrapper } from "../HOC";
 import { textVariant } from "../utils/motion";
 
 const ExperienceCard = ({ experience }) => {
@@ -61,10 +61,10 @@ const About = () => {
     <>
       <motion.div variants={textVariant()}>
         <p className={`${styles.sectionSubText} text-center`}>
-          What We have done so far
+        Our Current Endeavors
         </p>
         <h2 className={`${styles.sectionHeadText} text-center`}>
-          Presenting You THE EYE
+        What We're Doing Now!
         </h2>
       </motion.div>
 

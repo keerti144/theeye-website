@@ -1,10 +1,10 @@
 import React from "react";
 import { Tilt } from "react-tilt";
 import { motion } from "framer-motion";
-import { services } from "../constants";
+import { services } from "../Constants";
 import { styles } from "../styles";
 import { fadeIn, textVariant } from "../utils/motion";
-import { SectionWrapper } from "../HOC";
+import { SectionWrapper } from "./HOC";
 import { HallofFame } from "../Constants/api";
 
 const ServiceCard = ({ data }) => {

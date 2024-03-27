@@ -22,6 +22,10 @@ import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
+import ai from "./tech/ai.png";
+import cybersecurity from "./tech/cybersecurity.png";
+import webdevelopment from "./tech/webdevelopment.png";
+import instagram from "./tech/instagram.png";
 
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
@@ -56,6 +60,10 @@ export {
   tailwind,
   typescript,
   threejs,
+  ai,
+  cybersecurity,
+  webdevelopment,
+  instagram,
   meta,
   shopify,
   starbucks,
