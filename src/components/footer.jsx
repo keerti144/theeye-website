@@ -59,8 +59,19 @@ const footer = () => {
         <a href="https://join.cseatheeye.com/auth"> | JOIN THE EYE</a>
            </div>
       </div>
-      <br/>
-      <p>Keerti Dhanyaa</p>
+      
+      {/* New Section for Team Members */}
+      <div className="flex flex-col justify-center items-center md:flex-row gap-5 mb-10">
+        <span>Main Contributor:</span>
+        <a href="https://www.linkedin.com/in/navaneetha-krishnan-k-s-5b7994224/" className="text-blue-600 hover:underline">
+          Navaneetha Krishnan K S
+        </a>
+        <span>Other Contributors:</span>
+        <a href="https://www.linkedin.com/in/keerti-dhanyaa-r-412496275" className="text-blue-600 hover:underline">
+          Keerti Dhanyaa R
+        </a>
+      </div>
+
     </footer>
   );
 };

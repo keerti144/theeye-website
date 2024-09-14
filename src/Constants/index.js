@@ -144,7 +144,7 @@ const experiences = [
     iconBg: "#E6DEDD",
     date: "September 2024 - Present",
     points: [
-      "Neelesh - Makes Music, keep streaming DrNeel, says MEOW a lot",
+      "Akhil Ramalingam","Thrisha Ravikumar","Thrisha J",
     ],
   },
   {
@@ -154,7 +154,7 @@ const experiences = [
     iconBg: "#383E56",
     date: "September 2024 - Present",
     points: [
-      "Atul - games, edits, and is chronically online :)",
+      "Swadhitha SP","Akshaya J","Varshini S",
     ],
   },
   {
@@ -174,7 +174,7 @@ const experiences = [
     iconBg: "#383E56",
     date: "September 2024 - Present",
     points: [
-      "Dinesh, turning his love for computer science into action as the Event Resources Lead for the Eye, where cybersecurity meets creativity and precision!",
+      "Surya","Yesh","Shreyaa S",
     ],
   },
   {
@@ -184,7 +184,7 @@ const experiences = [
     iconBg: "#383E56",
     date: "October 2023 - Present",
     points: [
-      "The Projects and Research Team, headed by Arun US is responsible for overseeing and enhancing the technical landscape of the club. The team ensures seamless coordination and innovation across the critical domains of the club",
+      "Keerti Dhanyaa","Ananya R.S","Pravith N",
     ],
   },
   {
