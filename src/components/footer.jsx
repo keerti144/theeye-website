@@ -59,6 +59,8 @@ const footer = () => {
         <a href="https://join.cseatheeye.com/auth"> | JOIN THE EYE</a>
            </div>
       </div>
+      <br/>
+      <p>Keerti Dhanyaa</p>
     </footer>
   );
 };

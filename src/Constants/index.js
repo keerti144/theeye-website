@@ -42,6 +42,10 @@ export const navLinks = [
     id: "Report Problem",
     title: "Report Problem",
   },
+  {
+    id: "Community Events",
+    title: "Community Events",
+  },
 ];
 export const navLink2 = [
   {
@@ -134,23 +138,63 @@ const technologies = [
 
 const experiences = [
   {
-    title: "TECHNICAL",
+    title: "EVENT MANAGEMENT",
+    company_name: "Head: Neelesh",
+    icon: meta,
+    iconBg: "#E6DEDD",
+    date: "September 2024 - Present",
+    points: [
+      "Neelesh - Makes Music, keep streaming DrNeel, says MEOW a lot",
+    ],
+  },
+  {
+    title: "PUBLICITY AND DESIGN",
+    company_name: "Head: Atul Krishnaa",
+    icon: instagram,
+    iconBg: "#383E56",
+    date: "September 2024 - Present",
+    points: [
+      "Atul - games, edits, and is chronically online :)",
+    ],
+  },
+  {
+    title: "ADMINISTRATION",
+    company_name: "Head: Mehul Dinesh",
+    icon: web,
+    iconBg: "#383E56",
+    date: "September 2024 - Present",
+    points: [
+      "Mehul Dinesh, a seasoned events organizer and manager, is a core member and key executive of The Eye who shows reasonable interest in only one thing - Domain Expansion.",
+    ],
+  },
+  {
+    title: "EVENT RESOURCES",
+    company_name: "Head: Dinesh TM",
+    icon: web,
+    iconBg: "#383E56",
+    date: "September 2024 - Present",
+    points: [
+      "Dinesh, turning his love for computer science into action as the Event Resources Lead for the Eye, where cybersecurity meets creativity and precision!",
+    ],
+  },
+  {
+    title: "PROJECTS AND RESEARCH",
     company_name: "Head: Arun US",
     icon: web,
     iconBg: "#383E56",
     date: "October 2023 - Present",
     points: [
-      "The Technical Team, headed by Arun US is responsible for overseeing and enhancing the technical landscape of the club. The team ensures seamless coordination and innovation across the critical domains of the club",
+      "The Projects and Research Team, headed by Arun US is responsible for overseeing and enhancing the technical landscape of the club. The team ensures seamless coordination and innovation across the critical domains of the club",
     ],
   },
   {
-    title: "ARTIFICIAL INTELLIGENCE",
+    title: "TECHNICAL",
     company_name: "Head: Lohith S",
     icon: ai,
     iconBg: "#383E56",
     date: "October 2023 - Present",
     points: [
-      "The AI (Artificial Intelligence) Team, headed by Lohith S is responsible for crafting AI-based projects and innovative solutions to tackle complex problems. They also actively contribute through insightful articles and interactive workshops, fostering a culture of continuous learning and exploration within the college's AI community.",
+      "The Technical Team, headed by Lohith S is responsible for crafting AI-based projects and innovative solutions to tackle complex problems. They also actively contribute through insightful articles and interactive workshops, fostering a culture of continuous learning and exploration within the college's AI community.",
     ],
   },
   {
