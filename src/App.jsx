@@ -67,8 +67,8 @@ const App = () => {
           <Hero />
         </div>
         <div className="flex flex-col mt-56">
-          {/*<Announcement />
-          <HallofFame />*/}
+          <Announcement />
+          <HallofFame />
           <About />
         </div>
 
