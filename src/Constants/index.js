@@ -145,7 +145,7 @@ const experiences = [
     iconBg: "#E6DEDD",
     date: "September 2024 - Present",
     points: [
-      "Akhil Ramalingam","Thrisha Ravikumar","Thrisha J",
+      "Akhil Ramalingam","Thrisha Ravikumar","Trisha J",
     ],
   },
   {
