@@ -5,18 +5,26 @@ const HallofFame = () => {
   const [cont, setCont] = useState([]);
 
   useEffect(() => {
-      fetch('https://api.cseatheeye.com/ping', {
-        method: 'GET',
-        mode: 'cors',
-        credentials: 'same-origin'
+    axios
+      .get('https://api.cseatheeye.com/home')
+      .then((res) => {
+        setCont(res.data);
+
       })
-        .then(response => response.json())
-        .then(data => {
-          setCont(data);
-        })
-        .catch(error => {
-          console.error("Error fetching data:", error);
-        });
+      .catch((error) => {
+        console.error("Error fetching data:", error);
+      });
+
+      axios
+      .get('https://api.cseatheeye.com/ping')
+      .then((res) => {
+        console.log("Ping Success!",res);
+
+      })
+      .catch((error) => {
+        console.error("Error fetching data:", error);
+      });
+
   }, []);
   return cont;
   
