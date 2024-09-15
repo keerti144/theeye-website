@@ -15,16 +15,6 @@ const HallofFame = () => {
         console.error("Error fetching data:", error);
       });
 
-      axios
-      .get('https://api.cseatheeye.com/ping')
-      .then((res) => {
-        console.log("Ping Success!",res);
-
-      })
-      .catch((error) => {
-        console.error("Error fetching data:", error);
-      });
-
   }, []);
   return cont;
   
