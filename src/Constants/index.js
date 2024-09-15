@@ -45,6 +45,7 @@ export const navLinks = [
   {
     id: "Community Events",
     title: "Community Events",
+    externalLink: "https://community.cseatheeye.com/",
   },
 ];
 export const navLink2 = [
