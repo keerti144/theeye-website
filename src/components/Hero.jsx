@@ -17,29 +17,20 @@ const Hero = () => {
 
         <div>
           <h1 className={`${styles.heroHeadText} text-gray-500`}>
-            Welcome to <span className="text-[#915eff]">The EYE</span>{" "}
+            Welcome to <span className="text-[#915eff]">The Eye</span>{" "}
           </h1>
           <p className={`${styles.heroSubText} mt-2 text-white`}>
             {" "}
-            We are a club under CSEA working on cyber security{" "}
+            A Cybersecurity Society under the CSEA, PSG College of Technology.{" "}
           </p>
           <p className="mt-5 text-gray-400">
-            Welcome to "The Eye" Cybersecurity Club! 🔐 <br />
+            Welcome to The Eye, a Cybersecurity Society! 🔐 <br />
             Are you passionate about the digital realm and the ever-evolving
-            world of cybersecurity?
-            <br /> Join us at "The Eye," where we peer into the heart of
-            technology to safeguard and secure the digital landscape. 🌐 <br />
-            <span className="font-bold">Our Mission:</span> At "The Eye," we are
-            on a mission to explore, educate, and empower individuals in the
-            field of cybersecurity. Our dedicated team of experts and
-            enthusiasts is committed to:{" "}
-            <span className="font-bold">Cyber Awareness:</span> Spreading
-            awareness about the importance of online security and privacy.
-            <span className="font-bold"> Skill Development:</span> Enhancing
-            your cybersecurity skills through workshops, seminars, and hands-on
-            training. <span className="font-bold">Ethical Hacking:</span>{" "}
-            Encouraging ethical hacking practices to protect systems and
-            networks.
+            world of cybersecurity? <br /><br />
+            The Eye is a cybersecurity-focus college society under the Computer Science and Engineering Association
+            in PSG College of Technology. We have multiple verticals to help our members learn and practice
+            cybersecurity in their every-day life. We organize events in order to increase awareness of Cybersecurity within
+            the college, and also perform other activities like research and documentation, secure coding and mock box attacks.
           </p>
           <div className="mt-5 sm:flex flex-cols  lg:flex-row justify-between">
             <img
@@ -50,26 +41,32 @@ const Hero = () => {
 
             <div className="flex flex-col">
               <h1 className={`${styles.heroHeadText} mt-10 flex justify-end`}>
-                Join the EYE !
+                EtherX Event
               </h1>
               <div>
                 <p className="mt-10 ml-10 text-gray-400">
-                  🚀 Ready to level up your cybersecurity skills? Join 'The Eye'
-                  Cybersecurity Club and dive deep into the exciting and
-                  ever-evolving world of cyber defense. 💡 At 'The Eye,' we're
-                  more than just a club; we're a community of passionate
-                  individuals dedicated to safeguarding the digital realm.
-                  Here's why you should consider joining us:
+                  The Eye, our very own cybersecurity society under CSEA , is hosting an epic 3-day event this September—etherXsummit! 🎉<br/>
+                  The theme? Fintech Cybersecurity 💻, and it’s all about diving deep into the crucial role of cybersecurity in the fintech world. 🌐<br/>
+                  On Sept 20, 21, 22<br/>
+                  What’s in store?<br/><br/>
+                  🧠 Workshops<br/>
+                  🎓 Guest Speaker Sessions<br/>
+                  💼 Case Studies<br/>
+                  💻 Speed Run Hackathon<br/>
+                  🏆 Prizes and Certificates<br/><br/>
+                  Whether you're into fintech, cybersecurity, or just love a good challenge, this is your chance to network, learn, and showcase your skills!<br/>
+                  Don't miss out—this could be the event that sparks your next big idea! 🌟
                 </p>
 
-                <p className="mt-3 ml-10 text-gray-400">
+                {/*<p className="mt-3 ml-10 text-gray-400">
                   #CyberSecurity #JoinTheEye Join us, and together, let's secure
                   a safer digital future! 🔐🌐💻
-                </p>
+                </p>*/}
+                <br/><br/>
 
-                {/*<button className="cursor-pointer" onClick={()=>window.open("https://join.cseatheeye.com/auth", "_blank")}>
-                  Join us 
-                </button>*/}
+                <button className="cursor-pointer" onClick={()=>window.open("https://etherx.cseatheeye.com/", "_blank")} style={{textAlign:'right', border:'1px white solid', padding: '5px',float: 'right'}}>
+                  Register for the Event
+                </button>
               </div>
             </div>
           </div>

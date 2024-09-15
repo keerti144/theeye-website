@@ -17,7 +17,7 @@ const App = () => {
     <div className="App">
       {isPopupVisible && (
         <>
-          <div className="hidescreen" />
+          <div className="hidescreen"  onClick={closePopup}/>
           <div className="window" id="info-window">
             <div className="window-header">
               <span>Info</span>
@@ -27,7 +27,7 @@ const App = () => {
               <p>We're hosting an event.</p><br/>
               <a href="https://partiful.com/e/aI0JemmmmFTqX4U6HD90" style={{border: '1px solid white', padding: '2px', paddingTop: '5px', paddingBottom: '5px', color: 'white', textDecoration: 'none'}} target="_blank" rel="noopener noreferrer">Learn more // Join</a><br/><br/>
               <p>Mark your calendars for an exhilarating journey into the world of FinTech cybersecurity at EtherX, happening from September 27 to September 29, 2024! Hosted by The Eye, this intra-college event is exclusively open to all departments and years of PSG College of Technology. Whether you're a seasoned tech enthusiast or just starting out, EtherX promises to be an enriching experience for everyone.<br/><br/>
-              Registration:<br/>
+              <p style={{textAlign:'left'}}>Registration:<br/>
               ● Teams of 4 people<br/>
               ● Register as a group or individually (we'll form teams for individuals)<br/><br/>
               Event Schedule:<br/><br/>
@@ -55,7 +55,7 @@ const App = () => {
               ● Enhance your cybersecurity skills<br/>
               ● Network with like-minded peers<br/>
               ● Compete in a thrilling environment<br/><br/>
-              Venue: PSG College of Technology</p>
+              Venue: PSG College of Technology</p></p>
             </div>
           </div>
         </>
@@ -67,8 +67,8 @@ const App = () => {
           <Hero />
         </div>
         <div className="flex flex-col mt-56">
-          <Announcement />
-          <HallofFame />
+          {/*<Announcement />
+          <HallofFame />*/}
           <About />
         </div>
 

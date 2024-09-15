@@ -61,10 +61,10 @@ const About = () => {
     <>
       <motion.div variants={textVariant()}>
         <p className={`${styles.sectionSubText} text-center`}>
-        Our Current Endeavors
+        Society Activities
         </p>
         <h2 className={`${styles.sectionHeadText} text-center`}>
-        What We're Doing Now!
+        Our Verticals & Members
         </h2>
       </motion.div>
 

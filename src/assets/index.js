@@ -28,6 +28,8 @@ import webdevelopment from "./tech/webdevelopment.png";
 import instagram from "./tech/instagram.png";
 
 import meta from "./company/meta.png";
+import event from "./company/event.png";
+import advisor from "./company/advisor.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
@@ -71,4 +73,6 @@ export {
   carrent,
   jobit,
   tripguide,
+  event,
+  advisor
 };
